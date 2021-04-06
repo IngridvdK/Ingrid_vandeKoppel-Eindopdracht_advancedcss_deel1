@@ -1,0 +1,66 @@
+body {
+  background-color: #c3cfe2;
+}
+
+main {
+  font-family: calibri, sans-serif;
+  font-size: 18px;
+  color: #636161;
+}
+
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border: 1.5px solid white;
+  border-radius: 15px;
+  width: 386px;
+  margin: 20px;
+  box-shadow: 0px 5px 7px 3px grey;
+}
+.testimonial__prg {
+  padding: 40px 40px 10px 40px;
+  line-height: 2em;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0px;
+}
+.testimonial__footer {
+  background-color: #686de0;
+  border-radius: 0px 0px 15px 15px;
+  margin: -50px -2px -2px -2px;
+}
+.testimonial__image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+.testimonial__avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+  border: 7px solid white;
+  border-radius: 50%;
+  z-index: 1;
+}
+.testimonial__footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 40px 0px 0px 0px;
+}
+.testimonial__name {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin: 20px 0px 10px 0px;
+}
+.testimonial__web {
+  color: #e0e1f375;
+  margin: 0px 0px 40px 0px;
+}/*# sourceMappingURL=styles.css.map */
